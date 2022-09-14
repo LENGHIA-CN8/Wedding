@@ -49,13 +49,13 @@ var activeFilter = "all";
 
 $(".ww-filter-button").on("click", function(e) {
   // remove btn-primary from all buttons first
-  $(".ww-filter-button").removeClass("btn-primary");
-  $(".ww-filter-button").addClass("btn-outline-primary");
+  $(".ww-filter-button").removeClass("btn-secondary");
+  // $(".ww-filter-button").addClass("btn-outline-primary");
 
   // add btn-primary to active button
   var button = $(this);
-  button.removeClass("btn-outline-primary");
-  button.addClass("btn-primary");
+  // button.removeClass("btn-outline-primary");
+  button.addClass("btn-secondary");
   filterItems(button.data("filter"));
   e.preventDefault();
 });

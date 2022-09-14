@@ -49,7 +49,7 @@ body {
 
 /* Nav Bar Style */
 .ww-nav-bar .heart {
-  fill: #f26147;
+  fill: #000000;
   position: relative;
   top: 2px;
   width: 40px;
@@ -91,7 +91,7 @@ body {
   .ww-couple-friends .carousel-indicators li {
     background-color: #6c757d; }
   .ww-couple-friends .carousel-indicators .active {
-    background-color: #f58a77; }
+    background-color: #000000; }
 
 /* Photo Gallery Style */
 .ww-photo-gallery .ww-category-filter a {
@@ -148,7 +148,7 @@ body {
       background: rgba(0, 0, 0, 0.3);
       color: #fff; }
     .ww-rsvp-detail .ww-rsvp-form .btn-submit {
-      background-color: rgba(245, 138, 119, 0.8);
+      background-color: rgba(0, 0, 0, 0.8);
       padding: 0.45rem 1.5rem;
       border: 0; }
 
@@ -176,7 +176,13 @@ body {
   padding: 100px 0; }
 
 .btn-primary {
-  color: #fff; }
+  color: rgb(255, 255, 255); }
 
 .btn-outline-primary:hover {
-  color: #fff; }
+  color: rgb(255, 255, 255); }
+
+i {
+    color: black;
+  }
+
+  
